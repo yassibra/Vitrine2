@@ -1,8 +1,11 @@
 <script>
   import Nav from '../src/Nav.svelte';
   import Footer from '../src/Footer.svelte';
+  import Section from '../src/Section.svelte';
 </script>
 <Nav/>
-<body></body>
+<body>
+<Section/>
+</body>
 <Footer/>
 
