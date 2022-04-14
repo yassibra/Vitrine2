@@ -1,7 +1,18 @@
 <script>
   import Home from '../src/Home.svelte';
+  import Connexion from '../src/Connexion.svelte';
+  import Router from 'svelte-spa-router';
 
  
 </script>
-<Home />
+
+<Router routes={{
+  '/connexion': Connexion,
+  '/': Home,
+  
+}}
+/>
+<hr>
+
+
 
