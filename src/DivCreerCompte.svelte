@@ -1,3 +1,7 @@
+<script>
+let typebadge = "badge-error";
+</script>
+
 <div class="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white">
   <section class="flex w-[30rem] flex-col space-y-10">
       <div class="text-center text-4xl font-medium">Creez un compte</div>
@@ -36,10 +40,12 @@
         <input
           type="password"
           placeholder="Confirmez mot de passe" 
-          class="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none inline-block"
+          class=" border-none bg-transparent outline-none placeholder:italic focus:outline-none inline-block"
         />
-        <svg id="boutonrouge" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
 
+        <div id="boutonrouge" class="badge {typebadge}">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current" bg-red><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </div>
       </div>
 
       <button
