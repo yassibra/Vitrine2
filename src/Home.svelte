@@ -10,7 +10,9 @@
   };
 </script>
 <Nav {...pkg} />
-<body>
+
 <Section/>
-</body>
+
+
 <Footer/>
+
