@@ -1,10 +1,11 @@
 
 <script>
+  export let titresite;
   let src = 'src/img/PhotoPro.png';
 </script>
 <div class="navbar bg-base-100">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl">Accueil</a>
+    <a class="btn btn-ghost normal-case text-xl">{titresite}</a>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
