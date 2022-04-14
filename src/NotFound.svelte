@@ -9,7 +9,7 @@
     titresite: 'Telegram Genius'
   };
 </script>
-<html>
+
 <Nav {...pkg} />
 <head>
     <title>The page you were looking for doesn't exist (404)</title>
@@ -17,7 +17,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100">
+
     <!-- This file lives in public/404.html -->
     <div class="h-screen w-screen flex flex-wrap justify-center content-center items-center absolute z-0">
         <svg class="w-full p-6 lg:p-64 fill-current text-gray-300" viewBox="0 0 445 202" xmlns="http://www.w3.org/2000/svg">
@@ -31,9 +31,9 @@
             <a href="/" id="boutonhomepage" class="mt-6 bg-blue-500 hover:bg-blue-700 text-white font-light py-4 px-6 rounded-full inline-block uppercase shadow-2xl">Back To Homepage</a>
         </div>
     </div>
-</body>
+
 <Footer />
-</html>
+
 
 <style>
 #boutonhomepage{
