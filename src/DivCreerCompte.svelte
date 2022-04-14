@@ -1,5 +1,15 @@
 <script>
-let typebadge = "badge-error";
+let typebadge;
+let mdp1;
+let mdp2;
+
+function handleBind() {
+  if ($mdp1===$mdp2){
+    typebadge = "badge-success";
+  } else{
+    typebadge = "badge-error";
+  }
+}
 </script>
 
 <div class="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white">
@@ -8,7 +18,7 @@ let typebadge = "badge-error";
        <div
         class="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500"
       >
-        <input
+        <input 
           type="text"
           placeholder="Pseudo"
           class="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none"
@@ -28,7 +38,7 @@ let typebadge = "badge-error";
       <div
         class="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500"
       >
-        <input
+        <input bind:value={mdp1} 
           type="password"
           placeholder="Mot de passe"
           class="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none"
@@ -37,12 +47,13 @@ let typebadge = "badge-error";
       <div
         class="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500 inline-block"
       >
-        <input
+         
+        <input bind:value={mdp2} 
           type="password"
           placeholder="Confirmez mot de passe" 
           class=" border-none bg-transparent outline-none placeholder:italic focus:outline-none inline-block"
         />
-
+        
         <div id="boutonrouge" class="badge {typebadge}">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current" bg-red><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
         </div>
