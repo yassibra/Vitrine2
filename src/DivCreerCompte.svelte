@@ -53,7 +53,7 @@ let mdp2 ='';
         </div>
         {:else}
         <div id="boutonrouge" class="badge badge-error">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current" bg-red><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" class="inline-block w-4 h-4 stroke-current" bg-red><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"  d="M406.656 706.944L195.84 496.256a32 32 0 1 0-45.248 45.248l256 256l512-512a32 32 0 0 0-45.248-45.248L406.592 706.944z"></path></svg>
         </div>
         {/if}
       </div>
