@@ -27,8 +27,15 @@
       </label> 
       <div class="relative">
         <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16"> 
-        <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+        <button id="boutonhomepage" class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
       </div>
     </div>
   </div>
 </footer>
+
+<style>
+#boutonhomepage{
+  background-color: #0088CC
+}
+
+</style>
