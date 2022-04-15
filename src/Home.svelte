@@ -8,7 +8,7 @@
   let photos = [];
 
 	onMount(async () => {
-		const res = await fetch(`http://localhost:8000/users/`);
+		const res = await fetch(`http://78.199.207.79.localhost:8000/users/`);
 		photos = await res.json();
     console.log(photos)
 	});
