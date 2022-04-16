@@ -20,7 +20,7 @@
 <Section/>
 <Footer/>
 {#each photos as photo}
-	<p>{photo}</p>
+	<p>{photo.test}</p>
 {/each}
 <p>WSH</p>
 
